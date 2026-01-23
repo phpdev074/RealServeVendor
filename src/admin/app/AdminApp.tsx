@@ -16,6 +16,7 @@ export default function AdminApp() {
   }, []);
 
   return (
+   
     <ErrorBoundary>
       <AdminAuthProvider>
         <AdminNotificationsProvider>
