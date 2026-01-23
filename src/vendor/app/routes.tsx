@@ -24,7 +24,6 @@ export function VendorRouter() {
     <Routes>
       {/* Login page (optional - for future use) */}
       <Route path="/login" element={<LoginPage />} />
-
       {/* All routes are accessible - mock mode */}
       <Route
         path="/"
